@@ -23,6 +23,20 @@ export default defineAppConfig({
     },
     {
       key: 1,
+      name: '知乎登录弹窗',
+      desc: '知乎登录弹窗1',
+      rules: [
+        {
+          quickFind: true,
+          activityIds: 'com.zhihu.android.app.ui.activity.DealLoginActivity',
+          matches: '[id="com.zhihu.android:id/close"]',
+          exampleUrls: 'https://m.gkd.li/60849309/79997df0-2b4f-468c-83e4-eb22f70f3197',
+          snapshotUrls: 'https://i.gkd.li/import/14204774',
+        },
+      ],
+    },
+    {
+      key: 1,
       name: '关闭广告弹窗',
       desc: '点击 关闭广告按钮 之后出现的广告弹窗',
       activityIds: [
